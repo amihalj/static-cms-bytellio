@@ -35,7 +35,7 @@ disableKinds: ["RSS", "taxonomy", "taxonomyTerm"]
 menu:
     top:
     - {Name: Home, Identifier: home, Url: "/", Weight: 10}
-    - {Name: Solutions, Identifier: solutions, Url: "/solutions/", Weight: 20}
+    - {Name: Development, Identifier: solutions, Url: "/development/", Weight: 20}
     - {Name: Contact, Identifier: contact, Url: "/contact/", Weight: 30}
-    - {Name: News, Identifier: news, Url: "/news/", Weight: 30}
+    - {Name: Posts, Identifier: post, Url: "/post/", Weight: 30}
 ---
