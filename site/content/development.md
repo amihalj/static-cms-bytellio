@@ -6,7 +6,7 @@ keywords: >-
 meta-description: >-
   Web and mobile development in .NET, NodeJs, Java, Go. Deployments to cloud
   infrastructure AWS, Azure, Google
-title: Solutions
+title: Development
 heading: Bytellio software development - we make software development simple
 image: /img/website_development.jpg
 sections:

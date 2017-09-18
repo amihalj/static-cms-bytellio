@@ -62,18 +62,18 @@ collections: # A list of collections the CMS should be able to edit
             - {label: Avatar, name: avatar, widget: image, required: false}
             - {label: Testimonial, name: testimonial, widget: text}
 
-      - file: "site/content/solutions.md"
-        label: "Solutions Page"
-        name: "solutions"
+      - file: "site/content/development.md"
+        label: "Development"
+        name: "development"
         fields:
           - {label: Meta Title, name: meta-title, widget: string}
           - {label: Meta Keywords, name: keywords, widget: string}
           - {label: Meta Description, name: meta-description, widget: text}
           - {label: Title, name: title, widget: string}
           - {label: Type, name: type, widget: hidden, default: page}
-          - {label: Page, name: page, widget: hidden, default: "/solutions.html"}
+          - {label: Page, name: page, widget: hidden, default: "/development.html"}
           - {label: Heading, name: heading, widget: string}
-          - {label: Image, name: image, widget: image}
+          - {label: Image, name: "image", widget: "image", required: false}
           - {label: Content, name: content, widget: markdown, required: false}
           - label: Sections
             name: sections
