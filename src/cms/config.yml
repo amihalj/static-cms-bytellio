@@ -12,9 +12,14 @@ collections: # A list of collections the CMS should be able to edit
     folder: "site/content/post" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - {label: Meta Title, name: meta-title, widget: string}
-      - {label: Meta Keywords, name: keywords, widget: string}
-      - {label: Meta Description, name: meta-description, widget: text}
+      - label: SEO
+        name: seo
+        widget: object
+        required: false
+        fields:
+        - {label: Meta Title, name: meta-title, widget: string}
+        - {label: Meta Keywords, name: keywords, widget: string}
+        - {label: Meta Description, name: meta-description, widget: text}
       - {label: Title, name: title, widget: string}
       - {label: Type, name: type, widget: hidden, default: page}
       - {label: "Publish Date", name: "date", widget: "datetime"}
@@ -30,9 +35,14 @@ collections: # A list of collections the CMS should be able to edit
         label: "Home"
         name: "home"
         fields:
-          - {label: Meta Title, name: meta-title, widget: string}
-          - {label: Meta Keywords, name: keywords, widget: string}
-          - {label: Meta Description, name: meta-description, widget: text}
+          - label: SEO
+            name: seo
+            widget: object
+            required: false
+            fields:
+            - {label: Meta Title, name: meta-title, widget: string}
+            - {label: Meta Keywords, name: keywords, widget: string}
+            - {label: Meta Description, name: meta-description, widget: text}
           - {label: Title, name: title, widget: string}
           - {label: Type, name: type, widget: hidden, default: page}
           - {label: Page, name: page, widget: hidden, default: "/index.html"}
@@ -66,9 +76,14 @@ collections: # A list of collections the CMS should be able to edit
         label: "Development"
         name: "development"
         fields:
-          - {label: Meta Title, name: meta-title, widget: string}
-          - {label: Meta Keywords, name: keywords, widget: string}
-          - {label: Meta Description, name: meta-description, widget: text}
+          - label: SEO
+            name: seo
+            widget: object
+            required: false
+            fields:
+            - {label: Meta Title, name: meta-title, widget: string}
+            - {label: Meta Keywords, name: keywords, widget: string}
+            - {label: Meta Description, name: meta-description, widget: text}
           - {label: Title, name: title, widget: string}
           - {label: Type, name: type, widget: hidden, default: page}
           - {label: Page, name: page, widget: hidden, default: "/development.html"}
@@ -88,9 +103,14 @@ collections: # A list of collections the CMS should be able to edit
         label: "Post landing page"
         name: "post"
         fields:
-          - {label: Meta Title, name: meta-title, widget: string}
-          - {label: Meta Keywords, name: keywords, widget: string}
-          - {label: Meta Description, name: meta-description, widget: text}
+          - label: SEO
+            name: seo
+            widget: object
+            required: false
+            fields:
+            - {label: Meta Title, name: meta-title, widget: string}
+            - {label: Meta Keywords, name: keywords, widget: string}
+            - {label: Meta Description, name: meta-description, widget: text}
           - {label: Title, name: title, widget: string}
           - {label: Type, name: type, widget: hidden, default: page}
           - {label: Page, name: page, widget: hidden, default: "/post.html"}
@@ -104,9 +124,14 @@ collections: # A list of collections the CMS should be able to edit
         label: "Contact"
         name: "contact"
         fields:
-          - {label: Meta Title, name: meta-title, widget: string}
-          - {label: Meta Keywords, name: keywords, widget: string}
-          - {label: Meta Description, name: meta-description, widget: text}
+          - label: SEO
+            name: seo
+            widget: object
+            required: false
+            fields:
+            - {label: Meta Title, name: meta-title, widget: string}
+            - {label: Meta Keywords, name: keywords, widget: string}
+            - {label: Meta Description, name: meta-description, widget: text}
           - {label: Title, name: title, widget: string}
           - {label: Type, name: type, widget: hidden, default: page}
           - {label: Page, name: page, widget: hidden, default: "/contact.html"}
