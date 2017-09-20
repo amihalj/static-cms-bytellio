@@ -6,12 +6,7 @@
             <!-- Follow Us-->
             <div class="span2">
                 <div class="title">Follow us</div>
-                <ul class="social">
-                    <li class="google"><span><i class="icon-google-plus"></i></span><a href="https://plus.google.com/+BytellioSoftware" rel="publisher">Google+</a></li>
-                    <li class="facebook"><span><i class="icon-facebook"></i></span><a href="https://www.facebook.com/pages/Bytellio/570499729743005">Facebook</a></li>
-                    <li class="twitter"><span><i class="icon-twitter"></i></span><a href="https://twitter.com/Bytellio">Twitter</a></li>
-                    <li class="linkedin"><span><i class="icon-linkedin"></i></span><a href="https://www.linkedin.com/company/bytellio-com">Linkedin</a></li>
-                </ul>
+                {{ partial "b-social" .Site.Params.social }}
             </div>
             <!-- End Follow Us-->
             <!-- Recent links-->
@@ -25,13 +20,14 @@
                 <div class="title">Contact us</div>
                 <ul class="contact_footer">
                     <li>
-                        <i class="icon-envelope"></i> <a href="https://www.bytellio.com/">info@bytellio.com</a>
+                        <i class="icon-envelope"></i> <a href="{{ .Site.BaseURL}}">{{ .Site.Params.contact.email}}</a>
                     </li>
+                    {{with .Site.Params.contact.phone}}
                     <li>
-                        <i class="icon-headphones"></i> <a href="call:">+385977505003</a>
-                    </li>
+                        <i class="icon-headphones"></i> <a href="call:">{{.}}</a>
+                    </li> {{end}}
                     <li class="location">
-                        <i class="icon-home"></i> <a href="https://www.bytellio.com/#" target="_blank">Augustinčićeva3, Zagreb, Croatia</a>
+                        <i class="icon-home"></i> <a href="{{ .Site.BaseURL}}" target="_blank">{{ .Site.Params.contact.address}}</a>
                     </li>
                 </ul>
             </div>
