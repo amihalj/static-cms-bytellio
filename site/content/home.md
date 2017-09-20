@@ -29,6 +29,11 @@ intro: >
 slider:
   - image: /img/1.jpg
     title: Add qualified and experienced people to your development team
+  - image: /img/website_development.jpg
+    subtitle: >-
+      Experienced team in UI design and UX. Make web applicatinos that users
+      will love
+    title: Web app development
 sections:
   - content: >-
       We bring a **personal** and **effective** approach to every project we
@@ -45,5 +50,6 @@ sections:
 testimonials:
   - {}
 ---
+
 
 
