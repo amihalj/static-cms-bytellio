@@ -1,12 +1,12 @@
 ---
-layout: home
 seo:
   keywords: 'web development, cloud development, AWS services'
+  meta-title: Team of highly qualified software engineers
   metaDescription: >-
     Team of highly qualified software engineers at your service. web and mobile
     app development, CRM, API and CMS integration.
-  meta-title: Team of highly qualified software engineers
 title: Home
+layout: home
 h1: Team of **highly qualified** software engineers at your service
 intro: >
   The **fastest** way to grow your **business** is to use leading technologies
@@ -31,13 +31,14 @@ slider:
   - image: /img/1.jpg
     title: Add qualified and experienced people to your development team
   - image: /img/website_development.jpg
-    title: Web app development
     subtitle: >-
       Experienced team in UI design and UX. Make web applicatinos that users
       will love
-    
+    title: Web app development
 sections:
-  - content: >-
+  - animation: fadeInUp
+    class: text-left
+    content: >-
       We bring a **personal** and **effective** approach to every project we
       work on, which is why our clients love us and why they keep coming back.
       We highly value quality and we try to find the best balance between our
@@ -48,10 +49,35 @@ sections:
       software life-span is short and becoming shorter every day. Rather than
       buying a pure software consider buying a service. **Services evolve,
       programs don’t**!
+    icon: icon-cogs right fadeInUp
     title: A fact worth a **thousand** words
+    type: fact
+  - animation: none
+    class: text-left
+    content: >-
+      We investigate our client's needs and try to **solve business problems**
+      with simple and intuitive technology solutions and focusing on things that
+      are most important to clients - NOT computers!
+
+
+      Our client’s goals are our primary target and focus should stay on those.
+      Technical difficulties and similar obstacles are not something that is
+      important to our clients - it’s up to us to solve it, not our clients! 
+
+
+      We involve our client’s into our development process by applying **UX
+      interaction design** method to produce high quality software/service and
+      fulfill their expectations. We also use small steps approach with
+      **iterative software development** to detect potential problems in design
+      and we correct them at the very beginning. Design flaws can be huge
+      problems if they are not detected at the right time.
+    icon: icon-tablet right
+    title: Our development process
+    type: development
 testimonials:
   - {}
 ---
+
 
 
 
