@@ -1,8 +1,8 @@
 ---
 seo:
-  meta-title: Why Bytellio took static website approach
+  metaTitle: Why Bytellio took static website approach
   keywords: 'static website, dynamic website, CMS'
-  meta-description: Why Bytellio took static website approach
+  metaDescription: Why Bytellio took static website approach
 title: Why Bytellio took static website approach
 type: page
 date: 2017-09-18T22:44:04.457Z

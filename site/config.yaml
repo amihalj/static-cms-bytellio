@@ -16,15 +16,17 @@ author:
   name: Ante Mihalj
   about: "I am a sofware engineer and a founder of Bytellio with 10+ years of experience in building all kinds of software: enterprise, start-up or just-for-fun.
   I have been involved with lots of backend and frontend technologies, relational or NoSQL databases, cloud computing and I always keep my eye on a horizont"
-  email: ante.mihalj@bytellio.com
+  contact:
+    email: ante.mihalj@bytellio.com
   image: 
     small: /img/common/ante-mihalj-240.png
     medium: /img/common/ante-mihalj-240.png
     big: /img/common/ante-mihalj-240.png
-  twitter: http://twitter.com/ante_mihalj
-  facebook: http://www.facebook.com/ante.mihalj.94
-  google: http://plus.google.com/u/1/102457268170314256619
-  linkedin: http://hr.linkedin.com/pub/ante-mihalj/50/580/a35
+  social:
+    twitter: http://twitter.com/ante_mihalj
+    facebook: http://www.facebook.com/ante.mihalj.94
+    google: http://plus.google.com/u/1/102457268170314256619
+    linkedin: http://hr.linkedin.com/pub/ante-mihalj/50/580/a35
 
 
 # RSS, categories and tags disabled for an easy start

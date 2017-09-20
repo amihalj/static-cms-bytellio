@@ -1,8 +1,8 @@
 ---
 seo:
-  meta-title: Contact us
+  metaTitle: Contact us
   keywords: Bytellio contact
-  meta-description: >-
+  metaDescription: >-
     Contact highly qualified team in software development and jump start your
     project
 title: Contact

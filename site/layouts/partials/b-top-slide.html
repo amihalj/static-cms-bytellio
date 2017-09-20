@@ -1,0 +1,16 @@
+<div class="camera_wrap" id="slide">
+    {{ range .Params }}
+    <div class="image-resizable" data-src="{{.image}}" data-src-tablet="{{.imageTab}}" data-src-mobile="{{.imageMob}}" data-src-smallmobile="{{.imageXsMob}}">
+        <div class="camera_caption fadeFromLeft">
+            <div class="container">
+                <div class="row-fluid">
+                    <div class="span8">
+                        <h3 class="h1 animated fadeInDown">"{{.title}}"</h3>
+                        <p class="animated fadeInUp">"{{.subtitle}}"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{ end }}
+</div>

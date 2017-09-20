@@ -1,8 +1,8 @@
 ---
 seo:
-  meta-title: Bytellio posts and news
+  metaTitle: Bytellio posts and news
   keywords: 'software development, post'
-  meta-description: Bytellio posts and news
+  metaDescription: Bytellio posts and news
 title: Post landing page
 h1: Bytellio posts and news
 content: >-

@@ -1,8 +1,8 @@
 ---
 seo:
-  meta-title: Bytellio software development - we make  software development simple
+  metaTitle: Bytellio software development - we make  software development simple
   keywords: full-stack development, nodejs, angular development, .net development, aws, azure
-  meta-description: Web and mobile development in .NET, NodeJs, Java, Go. Deployments to cloud infrastructure AWS, Azure, Google
+  metaDescription: Web and mobile development in .NET, NodeJs, Java, Go. Deployments to cloud infrastructure AWS, Azure, Google
 title: Development
 heading: Bytellio software development - we make software development simple
 image: /img/website_development.jpg
