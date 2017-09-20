@@ -1,6 +1,6 @@
-{{ partial "b-head" . }}
-{{ partial "b-nav" . }}
-{{ partial "b-top-slide" .Params.slider }}
+{{ partial "b-head" . }} 
+{{ partial "b-nav" . }} 
+{{ partial "b-top-slide" .Params.slider }} 
 
-  {{ .Content }}
+{{ .Params.intro | markdownify }} 
 {{ partial "b-footer" . }}
