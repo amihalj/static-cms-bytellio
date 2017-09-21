@@ -45,28 +45,8 @@
     <link rel="stylesheet" href="css/ie/ie.css" type="text/css" media="screen" />
     <![endif]-->
 
-    <script async="" src="/js/analytics.js.download"></script>
-    <script src="/js/jquery.min.js.download"></script>
-
-    <script>
-        var screenWidth = $(window).width();
-        $(function() {
-
-            var imageSizeAttr = 'data-src';
-            if (screenWidth <= 480) {
-                imageSizeAttr = 'data-src-smallmobile';
-            } else if (screenWidth <= 640 && screenWidth > 480) {
-                imageSizeAttr = 'data-src-mobile';
-            } else if (screenWidth <= 768 && screenWidth > 640) {
-                imageSizeAttr = 'data-src-tablet';
-            }
-            if (imageSizeAttr != 'data-src') {
-                $(".image-resizable").each(function() {
-                    $(this).attr('data-src', $(this).attr(imageSizeAttr));
-                });
-            }
-        });
-    </script>
+    <script src="/js/jquery-1.9.1.min.js"></script>
+    <script async="" src="/js/analytics.js"></script>
 
     <style type="text/css">
         .fancybox-margin {

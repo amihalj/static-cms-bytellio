@@ -35,20 +35,7 @@
             <!-- Newsletter-->
             <div class="span6">
                 <div class="title">Newsletter sign up</div>
-                <form id="newsletterForm" action="https://www.bytellio.com/php/mailchip/newsletter-subscribe.php">
-                    <div class="input-prepend">
-                        <span class="add-on"><i class="icon-align-left"></i></span>
-                        <input type="text" required="" placeholder="Your name">
-                    </div>
-
-                    <div class="input-prepend">
-                        <span class="add-on"><i class="icon-envelope"></i></span>
-                        <input type="email" required="" placeholder="Your Email" name="email">
-                    </div>
-
-                    <input type="submit" value="Send" class="button">
-                </form>
-                <div id="result-newsletter"></div>
+                <div class="footer-logo"></div>
             </div>
             <!-- end Newsletter-->
 
@@ -69,52 +56,60 @@
 <!-- ======================= JQuery libs =========================== -->
 
 <!-- jQuery local-->
+
 <script>
-    window.jQuery || document.write('<script src="scripts/jquery-1.9.1.min.js"><\/script>')
+    var screenWidth = $(window).width();
+    $(function() {
+
+        var imageSizeAttr = 'data-src';
+        if (screenWidth <= 480) {
+            imageSizeAttr = 'data-src-smallmobile';
+        } else if (screenWidth <= 640 && screenWidth > 480) {
+            imageSizeAttr = 'data-src-mobile';
+        } else if (screenWidth <= 768 && screenWidth > 640) {
+            imageSizeAttr = 'data-src-tablet';
+        }
+        if (imageSizeAttr != 'data-src') {
+            $(".image-resizable").each(function() {
+                $(this).attr('data-src', $(this).attr(imageSizeAttr));
+            });
+        }
+    });
 </script>
-<script src="/js/jquery-1.9.1.min.js.download"></script>
 <!-- jQuery ui-->
-<script src="/js/jquery-ui.min.js.download"></script>
+<script src="/js/jquery-ui.min.js"></script>
 <!--Nav-->
 
-<script type="text/javascript" src="/js/tinynav.min.js.download"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/TinyNav.js/1.2.0/tinynav.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/superfish/1.7.4/superfish.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.2.2/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/tweet/2.2.0/jquery.tweet.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
-<script type="text/javascript" src="/js/superfish.min.js.download"></script>
-<script src="/js/jquery.sticky.js.download" type="text/javascript"></script>
+<script src="/js/jquery.sticky.js" type="text/javascript"></script>
 
 <!--Totop-->
-<script type="text/javascript" src="/js/jquery.ui.totop.js.download"></script>
+<script type="text/javascript" src="/js/jquery.ui.totop.js"></script>
 <!--Slide-->
-<script type="text/javascript" src="/js/camera.min.js.download"></script>
+<script type="text/javascript" src="/js/camera.min.js"></script>
 
-<script type="text/javascript" src="/js/jquery.easing.min.js.download"></script>
-<!--flexsilider-->
-
-<script type="text/javascript" src="/js/jquery.flexslider-min.js.download"></script>
-<!--Ligbox-->
-
-<script type="text/javascript" src="/js/jquery.fancybox.pack.js.download"></script>
 <!--Gallery Grid-->
-<script type="text/javascript" src="/js/modernizr.custom.26633.js.download"></script>
-<script type="text/javascript" src="/js/jquery.gridrotator.min.js.download"></script>
+<script type="text/javascript" src="/js/modernizr.custom.26633.js"></script>
+<script type="text/javascript" src="/js/jquery.gridrotator.min.js"></script>
 <!--Minislider Team-->
-<script type="text/javascript" src="/js/modernizr.custom.63321.js.download"></script>
-<script type="text/javascript" src="/js/jquery.catslider.js.download"></script>
+<script type="text/javascript" src="/js/modernizr.custom.63321.js"></script>
+<script type="text/javascript" src="/js/jquery.catslider.js"></script>
 <!--Filters-->
-<script type="text/javascript" src="/js/filters.js.download"></script>
+<script type="text/javascript" src="/js/filters.js"></script>
 <!--Theme Options-->
-<script type="text/javascript" src="/js/theme-options.js.download"></script>
-<script type="text/javascript" src="/js/jquery.cookies.js.download"></script>
-<!-- Twitter Feed-->
+<script type="text/javascript" src="/js/theme-options.js"></script>
+<script type="text/javascript" src="/js/jquery.cookies.js"></script>
 
-<script src="/js/jquery.tweet.min.js.download"></script>
-
-<!-- Bootstrap.js-->
-
-<script type="text/javascript" src="/js/bootstrap.min.js.download"></script>
 
 <!--fUNCTIONS-->
-<script type="text/javascript" src="/js/jquery-func.min.js.download"></script>
+<script type="text/javascript" src="/js/jquery-func.min.js"></script>
 <!-- ======================= End JQuery libs =========================== -->
 
 

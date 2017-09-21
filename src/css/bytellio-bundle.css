@@ -8273,32 +8273,32 @@ a.badge:focus {
 
 .index_static,
 .section_title {
-    background: #e64b3c url("../images/bg_index_static.png");
+    background: #e64b3c url("../img/common/bg_index_static.png");
 }
 
 .overlay {
-    background: #e64b3c url("../images/more.png") no-repeat center center;
-    background: rgba(230, 75, 60, 0.6) url("../images/more.png") no-repeat center center;
+    background: #e64b3c url("../img/common/more.png") no-repeat center center;
+    background: rgba(230, 75, 60, 0.6) url("../img/common/more.png") no-repeat center center;
 }
 
 .arrow_results {
-    background: url("../images/red/arrow_results.png") no-repeat center center;
+    background: url("../img/common/arrow_results.png") no-repeat center center;
 }
 
 .arrow_resultsb {
-    background: url("../images/red/arrow_resultsb.png") no-repeat center center;
+    background: url("../img/common/arrow_resultsb.png") no-repeat center center;
 }
 
 .promotion_table .arrow_table {
-    background: url("../images/red/arrow_table_promotion.png") repeat-x center;
+    background: url("../img/common/arrow_table_promotion.png") repeat-x center;
 }
 
 .camera_prev>span {
-    background: url("../images/red/prev.png") no-repeat 0 0;
+    background: url("../img/common/prev.png") no-repeat 0 0;
 }
 
 .camera_next>span {
-    background: url("../images/red/next.png") no-repeat 0 0;
+    background: url("../img/common/next.png") no-repeat 0 0;
 }
 
 .camera_caption .h1 {
@@ -8331,7 +8331,7 @@ ul.filter li a.active,
 }
 
 .arrow_coment {
-    background: url("../images/red/arrow_coment.png") no-repeat center;
+    background: url("../img/common/arrow_coment.png") no-repeat center;
 }
 
 
@@ -8364,7 +8364,7 @@ ul.filter li a.active,
     left: 0;
     width: 40px;
     height: 480px;
-    background-image: url('../images/fancyboxfancybox.png');
+    background-image: url('../img/common/fancyboxfancybox.png');
 }
 
 #fancybox-overlay {
@@ -8436,7 +8436,7 @@ ul.filter li a.active,
     right: -15px;
     width: 30px;
     height: 30px;
-    background-image: url('../images/fancyboxfancybox.png');
+    background-image: url('../img/common/fancyboxfancybox.png');
     background-position: -40px 0px;
     cursor: pointer;
     z-index: 1103;
@@ -8506,7 +8506,7 @@ ul.filter li a.active,
 
 #fancybox-title-over {
     padding: 10px;
-    background-image: url('../images/fancyboxfancy_title_over.png');
+    background-image: url('../img/common/fancyboxfancy_title_over.png');
     display: block;
 }
 
@@ -8521,7 +8521,7 @@ ul.filter li a.active,
 
 #fancybox-title-left {
     padding-left: 15px;
-    background-image: url('../images/fancyboxfancybox.png');
+    background-image: url('../img/common/fancyboxfancybox.png');
     background-position: -40px -90px;
     background-repeat: no-repeat;
 }
@@ -8529,14 +8529,14 @@ ul.filter li a.active,
 #fancybox-title-main {
     font-weight: bold;
     line-height: 29px;
-    background-image: url('../images/fancyboxfancybox-x.png');
+    background-image: url('../img/common/fancyboxfancybox-x.png');
     background-position: 0px -40px;
     color: #FFF;
 }
 
 #fancybox-title-right {
     padding-left: 15px;
-    background-image: url('../images/fancyboxfancybox.png');
+    background-image: url('../img/common/fancyboxfancybox.png');
     background-position: -55px -90px;
     background-repeat: no-repeat;
 }
@@ -8549,7 +8549,7 @@ ul.filter li a.active,
     width: 35%;
     cursor: pointer;
     outline: none;
-    background-image: url('../images/fancyboxblank.gif');
+    background-image: url('../img/common/fancyboxblank.gif');
     z-index: 1102;
     display: none;
 }
@@ -8576,12 +8576,12 @@ ul.filter li a.active,
 }
 
 #fancybox-left-ico {
-    background-image: url('../images/fancyboxfancybox.png');
+    background-image: url('../img/common/fancyboxfancybox.png');
     background-position: -40px -30px;
 }
 
 #fancybox-right-ico {
-    background-image: url('../images/fancyboxfancybox.png');
+    background-image: url('../img/common/fancyboxfancybox.png');
     background-position: -40px -60px;
 }
 
@@ -8614,13 +8614,13 @@ ul.filter li a.active,
     top: -20px;
     left: 0;
     width: 100%;
-    background-image: url('../images/fancyboxfancybox-x.png');
+    background-image: url('../img/common/fancyboxfancybox-x.png');
 }
 
 #fancy-bg-ne {
     top: -20px;
     right: -20px;
-    background-image: url('../images/fancyboxfancybox.png');
+    background-image: url('../img/common/fancyboxfancybox.png');
     background-position: -40px -162px;
 }
 
@@ -8628,14 +8628,14 @@ ul.filter li a.active,
     top: 0;
     right: -20px;
     height: 100%;
-    background-image: url('../images/fancyboxfancybox-y.png');
+    background-image: url('../img/common/fancyboxfancybox-y.png');
     background-position: -20px 0px;
 }
 
 #fancy-bg-se {
     bottom: -20px;
     right: -20px;
-    background-image: url('../images/fancyboxfancybox.png');
+    background-image: url('../img/common/fancyboxfancybox.png');
     background-position: -40px -182px;
 }
 
@@ -8643,14 +8643,14 @@ ul.filter li a.active,
     bottom: -20px;
     left: 0;
     width: 100%;
-    background-image: url('../images/fancyboxfancybox-x.png');
+    background-image: url('../img/common/fancyboxfancybox-x.png');
     background-position: 0px -20px;
 }
 
 #fancy-bg-sw {
     bottom: -20px;
     left: -20px;
-    background-image: url('../images/fancyboxfancybox.png');
+    background-image: url('../img/common/fancyboxfancybox.png');
     background-position: -40px -142px;
 }
 
@@ -8658,13 +8658,13 @@ ul.filter li a.active,
     top: 0;
     left: -20px;
     height: 100%;
-    background-image: url('../images/fancyboxfancybox-y.png');
+    background-image: url('../img/common/fancyboxfancybox-y.png');
 }
 
 #fancy-bg-nw {
     top: -20px;
     left: -20px;
-    background-image: url('../images/fancyboxfancybox.png');
+    background-image: url('../img/common/fancyboxfancybox.png');
     background-position: -40px -122px;
 }
 
@@ -8882,7 +8882,7 @@ html[xmlns] .slides {
     height: 45px;
     margin: -20px 0 0;
     display: block;
-    background: url("../images/bg_direction_nav.png") no-repeat 0 0;
+    background: url("../img/common/bg_direction_nav.png") no-repeat 0 0;
     position: absolute;
     top: 30%;
     z-index: 10;
@@ -8937,7 +8937,7 @@ html[xmlns] .slides {
     height: 45px;
     margin: -20px 0 0;
     display: block;
-    background: url("../images/bg_direction_nav.png") no-repeat 0 0;
+    background: url("../img/common/bg_direction_nav.png") no-repeat 0 0;
     position: absolute;
     top: 50%;
     z-index: 10;
@@ -8959,7 +8959,7 @@ html[xmlns] .slides {
     height: 45px;
     margin: -180px 0 0;
     display: block;
-    background: url("../images/bg_direction_nav.png") no-repeat 0 0;
+    background: url("../img/common/bg_direction_nav.png") no-repeat 0 0;
     position: absolute;
     top: 50%;
     z-index: 10;
@@ -12893,15 +12893,15 @@ body {
 }
 
 .camera_target_content .camera_link {
-    background: url("../../img/slide/blank.gif");
+    background: url("../img/common/blank.gif");
     display: block;
     height: 100%;
     text-decoration: none;
 }
 
 .camera_loader {
-    background: #fff url("../../images/slide/camera-loader.gif") no-repeat center;
-    background: rgba(255, 255, 255, 0.9) url("../../images/slide/camera-loader.gif") no-repeat center;
+    background: #fff url("../img/common/camera-loader.gif") no-repeat center;
+    background: rgba(255, 255, 255, 0.9) url("../img/common/camera-loader.gif") no-repeat center;
     border: 1px solid #ffffff;
     -webkit-border-radius: 18px;
     -moz-border-radius: 18px;
@@ -17046,7 +17046,7 @@ dt {
 /* Services animations --------*/
 
 .service-process {
-    background-image: url('../images/service-bg.png');
+    background-image: url('../img/common/service-bg.png');
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center center;
@@ -17170,14 +17170,14 @@ dt {
 
 .arrow_results {
     position: absolute;
-    background: url("../images/arrow_results.png") no-repeat center center;
+    background: url("../img/common/arrow_results.png") no-repeat center center;
     width: 92px;
     height: 32px;
 }
 
 .arrow_resultsb {
     position: absolute;
-    background: url("../images/arrow_resultsb.png") no-repeat center center;
+    background: url("../img/common/arrow_resultsb.png") no-repeat center center;
     width: 100%;
     height: 118px;
     bottom: -70px;
@@ -17223,11 +17223,11 @@ dt {
     height: 51px;
     border: none;
     text-indent: 100%;
-    background: url("../images/ui.totop.png") no-repeat left top;
+    background: url("../img/common/ui.totop.png") no-repeat left top;
 }
 
 #toTopHover {
-    background: url("../images/ui.totop.png") no-repeat left -51px;
+    background: url("../img/common/ui.totop.png") no-repeat left -51px;
     width: 51px;
     height: 51px;
     display: block;
@@ -17636,7 +17636,7 @@ ul.filter li a {
     margin: 0 0 15px 0;
     cursor: pointer;
     border: 1px solid #f0f0f0;
-    background: #f9f9f9 url("../images/toggle.png") no-repeat right 14px;
+    background: #f9f9f9 url("../img/common/toggle.png") no-repeat right 14px;
     -webkit-transition: all .1s linear;
     -moz-transition: all .1s linear;
     -o-transition: all .1s linear;
@@ -17658,7 +17658,7 @@ ul.filter li a {
 .accordion-trigger.active,
 .accordion-trigger:hover {
     color: #fff;
-    background: #999 url("../images/toggle.png") no-repeat right -69px;
+    background: #999 url("../img/common/toggle.png") no-repeat right -69px;
 }
 
 .accordion-container {
@@ -17673,7 +17673,7 @@ ul.filter li a {
 /* Footer ----------------------------*/
 
 footer {
-    background: url("../images/arrow_footer.png") no-repeat center top;
+    background: url("../img/common/arrow_footer.png") no-repeat center top;
     background-color: #1C1C1C;
     padding: 80px 0;
     color: #fff;
@@ -17740,6 +17740,13 @@ footer .input-prepend .add-on i {
 
 footer .button {
     margin-top: 5px;
+}
+
+footer .footer-logo {
+    display: block;
+    background: url(../img/common/logo-m.png) no-repeat -18px 50%;
+    height: 80px;
+    margin-top: -8px;
 }
 
 .contact_footer li {
@@ -17981,7 +17988,7 @@ footer .button {
 .arrow_table {
     position: absolute;
     z-index: -1;
-    background: url("../images/arrow_table.png") no-repeat center;
+    background: url("../img/common/arrow_table.png") no-repeat center;
     background-repeat: repeat-x;
     bottom: -28px;
     height: 32px;
@@ -18041,7 +18048,7 @@ footer .button {
 .promotion_table .arrow_table {
     position: absolute;
     z-index: -1;
-    background: url("../images/arrow_table_promotion.png") no-repeat center;
+    background: url("../img/common/arrow_table_promotion.png") no-repeat center;
     background-repeat: repeat-x;
     bottom: -28px;
     height: 32px;
