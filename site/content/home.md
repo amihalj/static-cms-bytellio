@@ -49,7 +49,7 @@ sections:
       software life-span is short and becoming shorter every day. Rather than
       buying a pure software consider buying a service. **Services evolve,
       programs don’t**!
-    icon: icon-cogs right fadeInUp
+    icon: icon-coffee left fadeInUp
     title: A fact worth a **thousand** words
     type: fact
   - animation: none
@@ -77,6 +77,7 @@ sections:
 testimonials:
   - {}
 ---
+
 
 
 
