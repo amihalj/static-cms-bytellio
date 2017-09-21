@@ -7,7 +7,7 @@
           <div class="circle_top"></div>
       </div>
       <div class="info_vertical animated fadeInUp">
-          <h1>{{ .h1 }}</h1>
+          <h1>{{ .Params.h1 | markdownify }}</h1>
           <p class="text-left">{{ .Params.intro | markdownify }}</p>
       </div>
       <div class="vertical_line"></div>
@@ -15,5 +15,7 @@
   </div>
    
   {{ partial "b-home-sections" .Params.sections }} 
+  
+  {{ partial "b-home-circles" . }}
 </section>
 {{ partial "b-footer" . }}

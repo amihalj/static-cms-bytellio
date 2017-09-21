@@ -4,7 +4,8 @@
         <div class="circle_bottom"></div>
     </div>
     <div class="info_vertical animated ">
-        <h2>{{ .title }}</h2>
+        <h2>{{ .title  | markdownify }}</h2>
+        
         <p class="{{ .class }}">{{ with .content }} {{ . | markdownify}}{{ end }}</p> 
     </div>
     <div class="vertical_line"></div>
