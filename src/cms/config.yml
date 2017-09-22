@@ -22,8 +22,8 @@ collections: # A list of collections the CMS should be able to edit
             - {label: Meta Title, name: metaTitle, widget: string}
             - {label: Meta Keywords, name: keywords, widget: string}
             - {label: Meta Description, name: metaDescription, widget: text}
-          - {label: Title, name: title, widget: string}
-          - {label: Type, name: type, widget: hidden, default: page}
+          - {label: Title, name: title, widget: string, default: Home}
+          - {label: Type, name: type, widget: hidden, default: home}
           - {label: Page, name: page, widget: hidden, default: "/index.html"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "home"}
           - {label: Heading, name: h1, widget: string}
