@@ -1,6 +1,5 @@
 ---
-title: some
-type: index
+title: Home
 layout: home
 seo:
   keywords: 'web development, cloud development, AWS services'
@@ -8,7 +7,6 @@ seo:
   metaDescription: >-
     Team of highly qualified software engineers at your service. web and mobile
     app development, CRM, API and CMS integration.
-title: Home
 h1: Team of **highly qualified** software engineers at your service
 intro: >
   The **fastest** way to grow your **business** is to use leading technologies
