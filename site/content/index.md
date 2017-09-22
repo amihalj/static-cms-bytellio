@@ -1,6 +1,6 @@
 ---
+title: "Index"
 type: home
-page: /home.html
 layout: home
 seo:
   keywords: 'web development, cloud development, AWS services'
@@ -79,8 +79,3 @@ sections:
 testimonials:
   - {}
 ---
-
-
-
-
-

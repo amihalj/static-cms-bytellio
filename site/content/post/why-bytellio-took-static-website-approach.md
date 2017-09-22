@@ -13,5 +13,3 @@ intro: >-
   to use static website for it's own homepage. Why have we decided to switch?
 content: 'Dynamic websites have been ruling web for almost last 2 decades. '
 ---
-
-
