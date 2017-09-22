@@ -5,6 +5,7 @@ seo:
   metaDescription: >-
     Team of highly qualified software engineers at your service. web and mobile
     app development, CRM, API and CMS integration.
+  metaTitle: Bytellio - professional software development
 title: Home
 layout: home
 h1: Team of **highly qualified** software engineers at your service
@@ -77,4 +78,5 @@ sections:
 testimonials:
   - {}
 ---
+
 
