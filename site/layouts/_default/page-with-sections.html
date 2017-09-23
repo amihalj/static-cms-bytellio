@@ -1,0 +1,35 @@
+{{ partial "b-head" . }} 
+{{ partial "b-nav" . }} 
+{{ partial "b-title-bar" .}}
+{{ partial "b-breadcrumbs" .}} 
+<section class="content_info">
+  <div class="solution">
+    <div class="row-fluid info_title">
+      <div class="vertical_line">
+        <div class="circle_bottom"></div>
+      </div>
+      <div class="info_vertical text-left animated fadeInUp">
+        <p>{{ with .Params.content }} {{ . | markdownify }} {{ end }}</p>
+      </div>
+      <div class="vertical_line"></div>
+      <i class="icon-cogs right"></i>
+    </div>
+    {{ range .Params.sections }}
+    <div class="row-fluid info_title">
+        <div class="vertical_line">
+            <div class="circle_top"></div>
+        </div>
+        <div class="info_vertical animated {{ with .animation }} {{ . }}{{ end }}">
+            <h2>{{ .title  | markdownify }}</h2>
+            <div class="solution-split">
+              {{ with .image }} <img src="{{ . }}" alt="@solution.Title Image" class="padding_top_mini padding_bottom_mini"> {{ end }}
+              <p class="{{ .class }}">{{ with .content }} {{ . | markdownify }}{{ end }}</p>
+            </div>
+        </div>
+        <div class="vertical_line"></div>
+        {{ with .icon }} <i class="{{ . }}"> {{ end }}</i>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ partial "b-footer" . }}

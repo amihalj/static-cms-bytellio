@@ -6,6 +6,7 @@ seo:
 title: Development
 heading: Bytellio software development - we make software development simple
 image: /img/website_development.jpg
+layout: page-with-sections
 sections:
   - class: microsoft
     title: Development in Microsoft .NET

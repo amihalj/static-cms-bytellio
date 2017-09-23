@@ -1,6 +1,8 @@
 {{ partial "b-head" . }} 
-{{ partial "b-nav" . }} 
-{{ partial "b-top-slide" .Params.slider }} 
+<header class="slide">
+  {{ partial "b-nav" . }} 
+  {{ partial "b-top-slide" .Params.slider }} 
+</header>
 <section class="content_info">
   <div class="row-fluid info_title">
       <div class="vertical_line">
