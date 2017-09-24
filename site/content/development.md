@@ -1,15 +1,19 @@
 ---
 seo:
+  keywords: >-
+    full-stack development, nodejs, angular development, .net development, aws,
+    azure
+  metaDescription: >-
+    Web and mobile development in .NET, NodeJs, Java, Go. Deployments to cloud
+    infrastructure AWS, Azure, Google
   metaTitle: Bytellio software development - we make  software development simple
-  keywords: full-stack development, nodejs, angular development, .net development, aws, azure
-  metaDescription: Web and mobile development in .NET, NodeJs, Java, Go. Deployments to cloud infrastructure AWS, Azure, Google
 title: Development
 heading: Bytellio software development - we make software development simple
 image: /img/website_development.jpg
 layout: page-with-sections
 sections:
   - class: microsoft
-    title: Development in Microsoft .NET
+    title: Development in Microsoft technologies
     content: >+
       We have 10+ years of experience in Microsoft technologies, supporting both
       web and desktop apps. 
@@ -57,4 +61,5 @@ sections:
     title: Website development
     content: "Your website is your most important advertising tool and it should present your company to your current and future clients. We offer you beautiful website design and high quality implementation.\n\n* Present your company with a **beautiful websit**e\n* **Get higher client conversion** by placing important information and actions at best places\n* Get higher page ranking in **search engines** with SEO optimization techniques\n* Connect with **social network**s and get **more potential clients** to your website\n* Gather **traffic analytics and client info**\_with smart use of cookies and tracking tools\n\n"
 ---
+
 
