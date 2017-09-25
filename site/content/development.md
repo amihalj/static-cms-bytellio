@@ -34,7 +34,7 @@ sections:
 
       - MSSQLServer
 
-    related: Microsoft development
+    related: ''
   - class: full-stack
     title: Full-stack development in Javascript
     content: >-
@@ -70,5 +70,6 @@ sections:
     title: Website development
     content: "Your website is your most important advertising tool and it should present your company to your current and future clients. We offer you beautiful website design and high quality implementation.\n\n* Present your company with a **beautiful websit**e\n* **Get higher client conversion** by placing important information and actions at best places\n* Get higher page ranking in **search engines** with SEO optimization techniques\n* Connect with **social network**s and get **more potential clients** to your website\n* Gather **traffic analytics and client info**\_with smart use of cookies and tracking tools\n\n"
 ---
+
 
 
