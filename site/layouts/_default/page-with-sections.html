@@ -4,6 +4,7 @@
     {{ partial "b-nav" . }} 
     {{ partial "b-title-bar" . }}
   </header>
+
   {{ partial "b-breadcrumbs" .}} 
   {{ with .Params.image }} <img src="{{ . }}" alt="header" class="header_image"> {{ end }}
   <section class="content_info">
@@ -18,7 +19,7 @@
         <div class="vertical_line"></div>
         <i class="icon-cogs right"></i>
       </div>
-      {{ range .Params.sections }}
+      {{ with .Params.sections }}{{ range . }}
       <div class="row-fluid info_title">
           <div class="vertical_line">
               <div class="circle_top"></div>
@@ -29,11 +30,12 @@
                 {{ with .image }} <img src="{{ . }}" alt="@solution.Title Image" class="padding_top_mini padding_bottom_mini"> {{ end }}
                 <p class="{{ .class }}">{{ with .content }} {{ . | markdownify }}{{ end }}</p>
               </div>
+              {{ with .related }} <a href="{{ .Permalink }}">{{ .Title}} </a>{{ end }}
           </div>
           <div class="vertical_line"></div>
           {{ with .icon }} <i class="{{ . }}"> {{ end }}</i>
       </div>
-      {{ end }}
+      {{ end }}{{ end }}
     </div>
   </section>
 
