@@ -4,6 +4,8 @@
             <h1>{{ .Params.h1 }}</h1>
         </div>
         {{ with .Params.subtitle }}
-        <div class="span7">{{ . | markdownify}} </div>{{ end }}
+        <div class="span7">
+            <p>{{ . | markdownify}} </p>
+        </div>{{ end }}
     </div>
 </div>

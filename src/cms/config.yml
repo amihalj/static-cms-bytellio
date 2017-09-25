@@ -73,7 +73,8 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Title, name: title, widget: string}
           - {label: Type, name: type, widget: hidden, default: page}
           - {label: Page, name: page, widget: hidden, default: "/development.html"}
-          - {label: Heading, name: heading, widget: string}
+          - {label: Heading, name: h1, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
           - {label: Image, name: "image", widget: "image", required: false}
           - {label: Content, name: content, widget: markdown, required: false}
           - label: Sections
@@ -81,9 +82,13 @@ collections: # A list of collections the CMS should be able to edit
             widget: list
             fields:
             - {label: Title, name: title, widget: string}
+            - {label: Type, name: type, widget: string}
+            - {label: Animation, name: animation, widget: string}
+            - {label: Icon, name: icon, widget: string}
             - {label: Class, name: class, widget: string}
             - {label: Image, name: image, widget: image, required: false}
             - {label: Content, name: content, widget: markdown, required: false}
+            - {label: Related, name: related, widget: relation, required: false, collection: development, searchFields: [title], valueField: title}
           
       - file: "site/content/post.md"
         label: "Post landing page"
@@ -145,3 +150,35 @@ collections: # A list of collections the CMS should be able to edit
       - {label: Image, name: "image", widget: "image", required: false}
       - {label: Intro, name: intro, widget: text}
       - {label: Content, name: content, widget: markdown, required: false}
+  - name: "development" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Dev pages" # Used in the UI, ie.: "New Post"
+    folder: "site/content/development" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - label: SEO
+        name: seo
+        widget: object
+        required: false
+        fields:
+        - {label: Meta Title, name: metaTitle, widget: string}
+        - {label: Meta Keywords, name: keywords, widget: string}
+        - {label: Meta Description, name: metaDescription, widget: text}
+      - {label: Title, name: title, widget: string}
+      - {label: Type, name: type, widget: hidden, default: page}
+      - {label: Page, name: page, widget: hidden, default: "/development.html"}
+      - {label: Heading, name: h1, widget: string}
+      - {label: Subtitle, name: subtitle, widget: string}
+      - {label: Image, name: "image", widget: "image", required: false}
+      - {label: Content, name: content, widget: markdown, required: false}
+      - label: Sections
+        name: sections
+        widget: list
+        required: false
+        fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Type, name: type, widget: string}
+        - {label: Animation, name: animation, widget: string}
+        - {label: Icon, name: icon, widget: string}
+        - {label: Class, name: class, widget: string}
+        - {label: Image, name: image, widget: image, required: false}
+        - {label: Content, name: content, widget: markdown, required: false}
