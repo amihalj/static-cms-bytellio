@@ -34,7 +34,7 @@ sections:
 
       - MSSQLServer
 
-    related: Microsoft development
+    related: /technologies/microsoft-development
   - class: full-stack
     title: Full-stack development in Javascript
     content: >-

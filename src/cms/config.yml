@@ -88,7 +88,7 @@ collections: # A list of collections the CMS should be able to edit
             - {label: Class, name: class, widget: string}
             - {label: Image, name: image, widget: image, required: false}
             - {label: Content, name: content, widget: markdown, required: false}
-            - {label: Related, name: related, widget: relation, required: false, collection: technologies, searchFields: [title], valueField: title}
+            - {label: Related, name: related, widget: relation, required: false, collection: technologies, searchFields: [title], valueField: Permalink }
           
       - file: "site/content/post.md"
         label: "Post landing page"

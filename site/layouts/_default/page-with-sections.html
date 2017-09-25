@@ -30,7 +30,7 @@
                 {{ with .image }} <img src="{{ . }}" alt="@solution.Title Image" class="padding_top_mini padding_bottom_mini"> {{ end }}
                 <p class="{{ .class }}">{{ with .content }} {{ . | markdownify }}{{ end }}</p>
               </div>
-              {{ with .related }} <a href="{{ .Permalink }}">{{ .Title}} </a>{{ end }}
+              {{ with .related }} <a href="{{ . }}"> Find out more ... </a>{{ end }}
           </div>
           <div class="vertical_line"></div>
           {{ with .icon }} <i class="{{ . }}"> {{ end }}</i>
