@@ -8,6 +8,7 @@ seo:
 title: Microsoft development
 type: page
 page: /development.html
+layout: technology
 h1: Microsoft development
 subtitle: We love .NET
 image: null

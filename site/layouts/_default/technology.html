@@ -5,6 +5,7 @@
     {{ partial "b-title-bar" . }}
   </header>
 
+
   {{ partial "b-breadcrumbs" .}} 
   {{ with .Params.image }} <img src="{{ . }}" alt="header" class="header_image"> {{ end }}
   <section class="content_info">
@@ -25,16 +26,12 @@
               <div class="circle_top"></div>
           </div>
           <div class="info_vertical animated {{ with .animation }} {{ . }}{{ end }}">
-              <h2><a href="{{ .related }}">{{ .title  | markdownify }}</a></h2>
+              <h2>{{ .title  | markdownify }}</h2>
               <div class="solution-split">
-                {{ with .image }} <img src="{{ . }}" alt="Image" class="padding_top_mini padding_bottom_mini"> {{ end }}
+                {{ with .image }} <img src="{{ . }}" alt="@solution.Title Image" class="padding_top_mini padding_bottom_mini"> {{ end }}
                 <p class="{{ .class }}">{{ with .content }} {{ . | markdownify }}{{ end }}</p>
               </div>
-              {{ with .related }}
-              <div>
-                 <a href="{{ . }}" class="find_more"> Find out more ... </a>
-              </div>
-              {{ end }}
+              {{ with .related }} <a href="{{ . }}"> Find out more ... </a>{{ end }}
           </div>
           <div class="vertical_line"></div>
           {{ with .icon }} <i class="{{ . }}"> {{ end }}</i>

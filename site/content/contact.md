@@ -7,7 +7,7 @@ seo:
   metaTitle: Contact us
 title: Contact
 h1: 'Contact us, we can help you'
-image: /img/capture3.png
+image: null
 layout: page-with-sections
 content: Contact info
 ---

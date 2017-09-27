@@ -53,6 +53,7 @@ collections: # A list of collections the CMS should be able to edit
           - label: Testimonials
             name: testimonials
             widget: list
+            required: false
             fields:
             - {label: Name, name: name, widget: string}
             - {label: Avatar, name: avatar, widget: image, required: false}
@@ -150,6 +151,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: Image, name: "image", widget: "image", required: false}
       - {label: Intro, name: intro, widget: text}
       - {label: Content, name: content, widget: markdown, required: false}
+      
   - name: "technologies" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Dev pages" # Used in the UI, ie.: "New Post"
     folder: "site/content/technologies" # The path to the folder where the documents are stored

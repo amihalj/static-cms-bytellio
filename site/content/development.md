@@ -36,11 +36,12 @@ sections:
 
     related: /technologies/microsoft-development
   - class: full-stack
-    title: Full-stack development in Javascript
+    title: Full-stack javascript development
     content: >-
-      When it comes to new trends we are not falling behind. We offer full stack
-      development in NodeJS with preferred front-end technology
+      
+      Using javascript in both frontend nd backend 
 
+      - MongoDB
 
       - NodeJs
 
@@ -49,9 +50,10 @@ sections:
       - ReactJS
 
       - You name it!
+    related: /technologies/fullstack-development
   - class: cloud
     title: Cloud development and integration
-    image: /img/integrations-development.jpg
+    image: /img/cloud-computing.jpg
     content: >
       Cloud development is big thing. It is important that your apps can scale
       and support bigger load and large number of users
@@ -66,9 +68,12 @@ sections:
       - integration with cloud provided services (cache, database, queue, ...)
 
       - build to scale according to your needs
+    related: /technologies/cloud-development
   - class: website
     title: Website development
     content: "Your website is your most important advertising tool and it should present your company to your current and future clients. We offer you beautiful website design and high quality implementation.\n\n* Present your company with a **beautiful websit**e\n* **Get higher client conversion** by placing important information and actions at best places\n* Get higher page ranking in **search engines** with SEO optimization techniques\n* Connect with **social network**s and get **more potential clients** to your website\n* Gather **traffic analytics and client info**\_with smart use of cookies and tracking tools\n\n"
+
+    related: /technologies/website-development
 ---
 
 
